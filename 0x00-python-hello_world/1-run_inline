@@ -1,8 +1,2 @@
 #!/bin/bash
-
-if [ -z "$PYCODE" ]; then
-  echo "Dekha and define pycode"
-  exit 1
-fi
-
-python3 <<< $PYCODE
+if [ -z "$PYCODE" ]; then echo "Dekha and define pycode"; exit 1; fi && python3 <<< "$PYCODE"
