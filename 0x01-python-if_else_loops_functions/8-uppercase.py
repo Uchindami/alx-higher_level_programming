@@ -12,5 +12,4 @@ def uppercase(input_str):
             result += char
     result += " "
     print(result)
-
-uppercase("holberton")
+    
