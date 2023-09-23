@@ -10,4 +10,5 @@ def uppercase(input_str):
         else:
             print("{}".format(char), end="")
     
-    print()
+
+uppercase("Hi there")
