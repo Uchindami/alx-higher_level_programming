@@ -2,11 +2,15 @@
 def islower(c):
     return 97 <= ord(c) <= 122
 
-
 def uppercase(input_str):
+    result = ""
     for char in input_str:
         if islower(char):
             uppercase_char = chr(ord(char) - ord('a') + ord('A'))
-            print("{}".format(uppercase_char), end="")
+            result += uppercase_char
         else:
-            print("{}".format(char), end="")
+            result += char
+    result += " "
+    print(result)
+
+uppercase("holberton")
