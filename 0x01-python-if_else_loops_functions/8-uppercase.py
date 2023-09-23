@@ -2,6 +2,7 @@
 def islower(c):
     return 97 <= ord(c) <= 122
 
+
 def uppercase(input_str):
     result = ""
     for char in input_str:
@@ -11,5 +12,4 @@ def uppercase(input_str):
         else:
             result += char
     result += " "
-    print(result)
-    
+    print("{}".format(result), end="")
