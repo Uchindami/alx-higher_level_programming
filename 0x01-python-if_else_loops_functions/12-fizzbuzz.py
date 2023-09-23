@@ -6,4 +6,3 @@ def fizzbuzz():
         output += "Fizz" if num % 3 == 0 else ""
         output += "Buzz" if num % 5 == 0 else ""
         print(output or num, end=' ')
-
