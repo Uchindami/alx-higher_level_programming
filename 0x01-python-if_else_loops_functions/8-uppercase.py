@@ -1,15 +1,7 @@
-#!/usr/bin/python3
-def islower(c):
-    return 97 <= ord(c) <= 122
-
-
-def uppercase(input_str):
-    result = ""
-    for char in input_str:
-        if islower(char):
-            uppercase_char = chr(ord(char) - ord('a') + ord('A'))
-            result += uppercase_char
-        else:
-            result += char
-    result += " "
-    print("{}".format(result), end="")
+def uppercase(string):
+    """convert to uppercase"""
+    for c in string:
+        if ord(c) >= 97 and ord(c) <= 122:
+            c = chr(ord(c) - 32)
+        print("{}".format(c), end="")
+    print("")
