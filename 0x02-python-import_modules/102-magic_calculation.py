@@ -6,5 +6,5 @@ def magic_calculation(a, b):
 
     if a < b:
         return add(a, b) + sum(range(4, 6))
-    
+
     return sub(a, b)
