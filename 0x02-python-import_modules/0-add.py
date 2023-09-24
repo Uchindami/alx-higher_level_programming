@@ -1,4 +1,7 @@
-if 12 == 48/4 and False:
-    print("Holberton")
-else:
-    print("School")
+#!/usr/bin/python3
+from add_0 import add
+
+a = 1
+b = 2
+
+print("{} + {} = {}".format(a, b, add(a, b)))
