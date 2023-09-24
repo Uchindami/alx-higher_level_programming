@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 import sys
 
-total = sum(int(arg) for arg in sys.argv[1:])
-print(f"{total}")
+def main():
+    total = sum(int(arg) for arg in sys.argv[1:])
+    print(f"{total}")
+
+if __name__ == "__main__":
+    main()
+    
