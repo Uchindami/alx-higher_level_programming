@@ -2,7 +2,7 @@
 
 /**
  * print_python_list_info - this will print out our python buddies
- * @p: Eyetu Python Object list.
+ * @p: A Python Object list.
  */
 void print_python_list_info(PyObject *p)
 {
@@ -15,7 +15,7 @@ void print_python_list_info(PyObject *p)
 	printf("[*] Size of the Python List = %d\n", immensity);
 	printf("[*] Allocated = %d\n", apportion);
 
-	for (counter = 0; counter < immensity; i++)
+	for (counter = 0; counter < immensity; counter++)
 	{
 		printf("Element %d: ", counter);
 
